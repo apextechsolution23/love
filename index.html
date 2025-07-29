@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saddam Hossain - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="initials">SH</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h2>Saddam Hossain</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#achievements" class="nav-link">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#social-work" class="nav-link">Social Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#internship" class="nav-link">Internship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="music-toggle" id="music-toggle" title="Background Music">
+                    <i class="fas fa-volume-mute"></i>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-container container">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="profile-image-container" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="profile-image">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Saddam Hossain" />
+                            <div class="profile-ring"></div>
+                            <div class="profile-ring-2"></div>
+                        </div>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Saddam Hossain</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span id="typed-text"></span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate BCA student from Dinhata, Cooch Behar, dedicated to creating innovative digital solutions and making a positive impact through technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                        <a href="#" class="btn btn-secondary" id="download-resume">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="800">
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                    <span>Scroll Down</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                <div class="about-container">
+                    <div class="about-content" data-aos="fade-right">
+                        <div class="about-image" data-aos="flip-left" data-aos-delay="300">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Saddam Hossain" />
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-code"></i>
+                                    <span>Passionate Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="about-description">
+                            Hi, I'm Saddam Hossain from Dinhata, Cooch Behar. Currently pursuing BCA and passionate about tech, learning, and creating digital solutions. I believe in continuous learning and using technology to solve real-world problems while giving back to the community.
+                        </p>
+                        <a href="#" class="btn btn-primary" id="resume-download">
+                            <i class="fas fa-file-pdf"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                    <div class="about-info" data-aos="fade-left">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-value">9832037793</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">saddamhossain20968@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Dinhata, Cooch Behar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <span class="timeline-date">2022 - Present</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p><strong>College:</strong> Cooch Behar College</p>
+                                <p><strong>University:</strong> Cooch Behar Panchanan Barma University</p>
+                                <p><strong>Status:</strong> Pursuing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Higher Secondary (12th)</h3>
+                                <span class="timeline-date">2021</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p><strong>Board:</strong> WBCHSE</p>
+                                <p><strong>School:</strong> Dinhata High School</p>
+                                <p><strong>Stream:</strong> Arts</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Secondary (10th)</h3>
+                                <span class="timeline-date">2019</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p><strong>Board:</strong> WBBSE</p>
+                                <p><strong>School:</strong> Dinhata High School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>C Programming</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>Java</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>DBMS</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+                        <div class="skill-icon">
+                            <i class="fas fa-table"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>MS Excel</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="500">
+                        <div class="skill-icon">
+                            <i class="fas fa-file-word"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>MS Office</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="600">
+                        <div class="skill-icon">
+                            <i class="fas fa-globe"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>Internet Browsing</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="700">
+                        <div class="skill-icon">
+                            <i class="fas fa-keyboard"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>Typing</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-left" data-aos-delay="800">
+                        <div class="skill-icon">
+                            <i class="fas fa-desktop"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <h3>Basic Computer Knowledge</h3>
+                        <div class="skill-progress">
+                            <div class="skill-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Achievements</h2>
+                <div class="achievement-card" data-aos="zoom-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                        <div class="achievement-glow"></div>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Basic Computer Course Training</h3>
+                        <p class="achievement-institution">CSC Academy</p>
+                        <p class="achievement-description">
+                            Completed comprehensive training in foundational computer concepts, office software applications, and essential digital skills that form the backbone of modern technology proficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Work Section -->
+        <section class="social-work section" id="social-work">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Social Responsibilities</h2>
+                <div class="quote-banner" data-aos="fade-up" data-aos-delay="200">
+                    <blockquote>
+                        "Giving back to the community is the greatest technology of the heart."
+                    </blockquote>
+                </div>
+                <div class="social-cards">
+                    <div class="social-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="social-icon">
+                            <i class="fas fa-utensils"></i>
+                            <div class="social-glow"></div>
+                        </div>
+                        <h3>Food & Clothing Distribution</h3>
+                        <p>Actively distributing food and clothes to the needy, ensuring basic necessities reach those who need them most.</p>
+                    </div>
+                    <div class="social-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="social-icon">
+                            <i class="fas fa-seedling"></i>
+                            <div class="social-glow"></div>
+                        </div>
+                        <h3>Tree Plantation Drives</h3>
+                        <p>Participating in environmental conservation through tree plantation initiatives to create a greener, more sustainable future.</p>
+                    </div>
+                    <div class="social-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="social-icon">
+                            <i class="fas fa-tint"></i>
+                            <div class="social-glow"></div>
+                        </div>
+                        <h3>Blood Donation</h3>
+                        <p>Contributing to saving lives through regular blood donation, supporting medical emergencies and healthcare needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section class="internship section" id="internship">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Professional Experience</h2>
+                <div class="internship-card" data-aos="slide-up">
+                    <div class="internship-header">
+                        <div class="internship-company">
+                            <i class="fas fa-building"></i>
+                            <div class="company-glow"></div>
+                            <h3>GLOBSERVE</h3>
+                        </div>
+                        <div class="internship-duration">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Dec 2024 - Feb 2025</span>
+                        </div>
+                    </div>
+                    <div class="internship-content">
+                        <div class="internship-role">
+                            <h4>Website Content Creation Intern</h4>
+                            <p class="internship-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Jalpaiguri
+                            </p>
+                        </div>
+                        <div class="internship-description">
+                            <p>Specialized in comprehensive website content creation, including content writing, publishing, SEO optimization, and professional formatting for various client websites. Gained hands-on experience in digital content strategy and web publishing workflows.</p>
+                        </div>
+                        <div class="internship-skills">
+                            <span class="skill-tag">Content Writing</span>
+                            <span class="skill-tag">SEO Basics</span>
+                            <span class="skill-tag">Web Publishing</span>
+                            <span class="skill-tag">Content Formatting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-form-container" data-aos="fade-right">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-info-container" data-aos="fade-left">
+                        <div class="contact-info-card">
+                            <h3>Let's Connect</h3>
+                            <p>I'm always open to discussing new opportunities, collaborations, or just having a friendly chat about technology and innovation.</p>
+                            <div class="contact-details">
+                                <div class="contact-detail">
+                                    <i class="fas fa-phone"></i>
+                                    <span>9832037793</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>saddamhossain20968@gmail.com</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Dinhata, Cooch Behar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Saddam Hossain. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919832037793" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Background Music -->
+    <audio id="background-music" loop>
+        <source src="https://www.soundjay.com/misc/sounds/magic-chime-02.wav" type="audio/wav">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
